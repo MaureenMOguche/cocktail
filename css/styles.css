@@ -144,6 +144,8 @@ section {
 }
 
 .grid-row{
+    width: 90%;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap:2.5rem;
@@ -316,6 +318,7 @@ form.message{
     font-size: 2rem;
     cursor: pointer;
     transition: transform .3s;
+    color: rgb(5, 5, 74);
 }
 
 .social-icons i:first-child:hover{
