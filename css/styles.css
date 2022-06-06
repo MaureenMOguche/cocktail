@@ -143,8 +143,14 @@ section {
     position: relative;
 }
 
+.grid-row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:2.5rem;
+}
+
 .f-card{
-    width: 13rem;
+    /* width: 13rem; */
     height: 18rem;
 }
 
@@ -404,12 +410,21 @@ form.message{
         display:none;
     }
 
+    h1.header-title {
+        font-size: 3rem;
+    }
+
+    .section-title h2{
+        font-size: 2rem;
+    }
+
     .row,
     .d-content,
     .d-content p,
     .d-img,
     .f-card,
-    .header-left{
+    .header-left,
+    .grid-row{
         display:block;
         padding: 0;
         width: 95%;
