@@ -9,7 +9,7 @@ This is a landing page for a Cocktail bar
 
 ### Links
 
-- Live Site URL: [Foodico](https://maureenmoguche.github.io/cocktail/)
+- Live Site URL: [Cocktail](https://maureenmoguche.github.io/cocktail/)
 
 
 ## Author
